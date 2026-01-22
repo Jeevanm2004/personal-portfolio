@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeevan M | Frontend Developer</title>
+    <meta name="description"
+        content="Portfolio of Jeevan M, a Frontend Developer specialized in React and Modern Web Technologies. View my projects, skills, and contact info.">
+    <meta name="keywords"
+        content="Jeevan M, Frontend Developer, React, HTML, CSS, JavaScript, Portfolio, Web Developer, Bangalore">
+    <meta name="author" content="Jeevan M">
+
+    <!-- Favicon Placeholder -->
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body>
+    <header id="header">
+        <nav class="container navbar">
+            <a href="#home" class="logo">JM</a>
+            <div class="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <button id="theme-toggle" aria-label="Toggle Dark Mode">
+                <i data-feather="moon"></i>
+            </button>
+            <button class="menu-btn" aria-label="Open Menu">
+                <i data-feather="menu"></i>
+            </button>
+        </nav>
+        <!-- Mobile Menu Overlay -->
+        <div class="mobile-menu">
+            <button class="close-menu" aria-label="Close Menu">
+                <i data-feather="x"></i>
+            </button>
+            <a href="#home" class="mobile-link">Home</a>
+            <a href="#about" class="mobile-link">About</a>
+            <a href="#skills" class="mobile-link">Skills</a>
+            <a href="#projects" class="mobile-link">Projects</a>
+            <a href="#education" class="mobile-link">Education</a>
+            <a href="#contact" class="mobile-link">Contact</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="container reveal">
+            <div class="hero-wrapper">
+                <div class="hero-text-col">
+                    <p class="greeting">Hi, I'm</p>
+                    <h1 class="name">Jeevan M</h1>
+                    <h2 class="role">Frontend Developer</h2>
+                    <p class="hero-desc">
+                        I build responsive, modern, and accessible web experiences.
+                        Currently focused on creating clean and efficient code with React and modern JavaScript.
+                    </p>
+
+                    <div class="hero-actions">
+                        <div class="hero-buttons">
+                            <a href="#projects" class="btn primary">View Projects</a>
+                        </div>
+                        <div class="hero-socials">
+                            <a href="https://github.com/Jeevanm2004" target="_blank" aria-label="GitHub"><i
+                                    data-feather="github"></i></a>
+                            <a href="https://www.linkedin.com/in/jeevanabhi" target="_blank" aria-label="LinkedIn"><i
+                                    data-feather="linkedin"></i></a>
+                            <a href="mailto:jeevanm.bit@gmail.com" aria-label="Email"><i data-feather="mail"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="hero-badges">
+                        <div class="badge">
+                            <i data-feather="code"></i>
+                            <span>2 Projects</span>
+                        </div>
+                        <div class="badge">
+                            <i data-feather="book"></i>
+                            <span>BIT 2026</span>
+                        </div>
+                        <div class="badge">
+                            <i data-feather="monitor"></i>
+                            <span>Frontend Dev</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Image removed as per request -->
+            </div>
+        </section>
+
+        <section id="about" class="container reveal section">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>
+                    I’m a frontend developer focused on building responsive and user-friendly web interfaces. I enjoy
+                    creating clean UI, improving user experience, and turning ideas into real web projects. Currently,
+                    I’m looking for frontend internship and entry-level opportunities where I can learn, contribute, and
+                    grow as a developer.
+                </p>
+            </div>
+        </section>
+
+        <section id="skills" class="container reveal section">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <!-- HTML -->
+                <div class="skill-card">
+                    <i data-feather="layout"></i>
+                    <h3>HTML5</h3>
+                </div>
+                <!-- CSS -->
+                <div class="skill-card">
+                    <i data-feather="feather"></i> <!-- Using feather as placeholder for design/css -->
+                    <h3>CSS3</h3>
+                </div>
+                <!-- JS -->
+                <div class="skill-card">
+                    <i data-feather="code"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <!-- React -->
+                <div class="skill-card">
+                    <i data-feather="box"></i> <!-- Placeholder for components/react -->
+                    <h3>React</h3>
+                </div>
+                <!-- Python -->
+                <div class="skill-card">
+                    <i data-feather="terminal"></i>
+                    <h3>Python</h3>
+                </div>
+                <!-- SQL -->
+                <div class="skill-card">
+                    <i data-feather="database"></i>
+                    <h3>SQL</h3>
+                </div>
+                <!-- Git -->
+                <div class="skill-card">
+                    <i data-feather="git-branch"></i>
+                    <h3>Git</h3>
+                </div>
+                <!-- GitHub -->
+                <div class="skill-card">
+                    <i data-feather="github"></i>
+                    <h3>GitHub</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="container reveal section">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <!-- Weather App -->
+                <article class="project-card">
+                    <div class="project-thumb">
+                        <img src="https://placehold.co/600x400/1e293b/6366f1?text=Weather+App" alt="Weather App">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Weather Web App</h3>
+                            <div class="project-tech-icons">
+                                <i data-feather="cloud-lightning"></i>
+                            </div>
+                        </div>
+                        <p class="project-desc">
+                            A live weather forecasting application featuring 5-day forecasts, city search, and
+                            favorites management.
+                        </p>
+                        <ul class="project-features">
+                            <li>Real-time weather data via OpenWeatherMap API</li>
+                            <li>Dynamic background based on weather conditions</li>
+                        </ul>
+                        <ul class="project-tags">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>OpenWeatherMap API</li>
+                        </ul>
+                        <div class="project-actions">
+                            <a href="https://jeevanm2004.github.io/weather-web-app/" target="_blank"
+                                class="btn-sm primary">
+                                Live Demo <i data-feather="external-link"></i>
+                            </a>
+                            <a href="https://github.com/Jeevanm2004/weather-web-app" target="_blank"
+                                class="btn-sm glass">
+                                GitHub <i data-feather="github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- React Quiz App -->
+                <article class="project-card">
+                    <div class="project-thumb">
+                        <img src="https://placehold.co/600x400/1e293b/6366f1?text=React+Quiz" alt="React Quiz">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">React Quiz App</h3>
+                            <div class="project-tech-icons">
+                                <i data-feather="check-square"></i>
+                            </div>
+                        </div>
+                        <p class="project-desc">
+                            An interactive quiz application with a timer, progress tracking, and scorecard.
+                        </p>
+                        <ul class="project-features">
+                            <li>State management with React Hooks</li>
+                            <li>Responsive UI with instant feedback</li>
+                        </ul>
+                        <ul class="project-tags">
+                            <li>React</li>
+                            <li>CSS</li>
+                            <li>Hooks</li>
+                        </ul>
+                        <div class="project-actions">
+                            <a href="https://jeevanm2004.github.io/react-quiz-app" target="_blank"
+                                class="btn-sm primary">
+                                Live Demo <i data-feather="external-link"></i>
+                            </a>
+                            <a href="https://github.com/Jeevanm2004/react-quiz-app" target="_blank"
+                                class="btn-sm glass">
+                                GitHub <i data-feather="github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="education" class="container reveal section">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2022 – 2026</div>
+                    <div class="timeline-content">
+                        <h3>Bachelor of Engineering</h3>
+                        <p>Bangalore Institute of Technology</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2020 – 2022</div>
+                    <div class="timeline-content">
+                        <h3>Pre-University</h3>
+                        <p>Narayana PU College</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2007 – 2020</div>
+                    <div class="timeline-content">
+                        <h3>Schooling</h3>
+                        <p>Widia Poorna Prajna School</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="container reveal section">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-container">
+                <p class="contact-subtitle">I'm always open to discussing new projects, creative ideas or opportunities
+                    to be part of your visions.</p>
+
+                <div class="contact-wrapper">
+                    <!-- Column 1: Contact Info -->
+                    <div class="contact-info">
+                        <h3 class="contact-col-title">Get in Touch</h3>
+                        <div class="contact-grid">
+                            <!-- Email -->
+                            <a href="mailto:jeevanm.bit@gmail.com" class="contact-card">
+                                <div class="card-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path
+                                            d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                        </path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3>Email</h3>
+                                    <p>jeevanm.bit@gmail.com</p>
+                                </div>
+                            </a>
+
+                            <!-- GitHub -->
+                            <a href="https://github.com/Jeevanm2004" target="_blank" class="contact-card">
+                                <div class="card-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path
+                                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3>GitHub</h3>
+                                    <p>@Jeevanm2004</p>
+                                </div>
+                            </a>
+
+                            <!-- LinkedIn -->
+                            <a href="https://www.linkedin.com/in/jeevanabhi" target="_blank" class="contact-card">
+                                <div class="card-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path
+                                            d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                        </path>
+                                        <rect x="2" y="9" width="4" height="12"></rect>
+                                        <circle cx="4" cy="4" r="2"></circle>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3>LinkedIn</h3>
+                                    <p>Connect</p>
+                                </div>
+                            </a>
+                        </div>
+
+
+
+                    </div>
+        </section>
+    </main>
+
+    <button id="back-to-top" aria-label="Back to Top">
+        <i data-feather="arrow-up"></i>
+    </button>
+
+    <footer>
+        <p>&copy; 2026 Jeevan M. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
