@@ -14,7 +14,7 @@ A responsive personal portfolio website built using HTML, CSS, and JavaScript.
 - JavaScript
 
 ## Live Demo
-(Add GitHub Pages link here)
+https://jeevanm2004.github.io/personal-portfolio/
 
 ## Contact
 Email: jeevanm.bit@gmail.com  
